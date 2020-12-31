@@ -1,8 +1,12 @@
+// ==UserScript==
 // @name         tmwebscript
 // @description  
+// @version      0.1
 // @match        http://*/*
 // @match        https://*/*
 // @require      https://tmwebscript.github.io/script/script.js
+
+// @grant        give it permission for everything, are there more than the ones below?
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_deleteValue
@@ -13,3 +17,4 @@
 // @grant        window.focus
 // @grant        GM_openInTab
 // @grant        GM_addValueChangeListener
+// ==/UserScript==
