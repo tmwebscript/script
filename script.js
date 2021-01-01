@@ -1,4 +1,4 @@
-alert(test)
+console.log(test); // variable defined in main script
 url = "https://tmwebscript.github.io/script/script2.js"
 
 // setInterval(async()=>{
