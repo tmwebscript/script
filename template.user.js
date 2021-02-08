@@ -4,7 +4,7 @@
 // @version      0.1
 // @match        http://*/*
 // @match        https://*/*
-// @require      https://tmwebscript.github.io/script/script.js
+// @connect      tmwebscript.github.io
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_deleteValue
